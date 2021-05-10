@@ -6,6 +6,7 @@ Settings for zsh terminal
 - powerlevel10k
 - lsd https://github.com/Peltoche/lsd
 - bat https://github.com/sharkdp/bat
+- MesloLGS NF font https://github.com/romkatv/powerlevel10k/blob/master/font.md
 
 ### Colour Scheme:
 #### Black
