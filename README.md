@@ -32,3 +32,15 @@ Settings for zsh terminal
 #### White
 - ![#E6E6E6](https://via.placeholder.com/15/E6E6E6/000000?text=+) `#E6E6E6`
 - ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
+
+#### Foreground
+- ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
+
+#### Background
+- ![#1F2229](https://via.placeholder.com/15/1F2229/000000?text=+) `#1F2229`
+
+#### Cursor Colour
+- ![#D3FF00](https://via.placeholder.com/15/D3FF00/000000?text=+) `#D3FF00`
+
+#### Selection Background
+- ![#FF6F6F](https://via.placeholder.com/15/FF6F6F/000000?text=+) `#FF6F6F`
