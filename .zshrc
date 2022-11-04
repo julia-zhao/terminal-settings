@@ -107,9 +107,42 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls='ls --color=auto'
+alias l='ls -l'
+alias lrt='ls -lrt'
+alias ls='ls --color=always'
+alias ll='ls -al'
 alias grep='grep --color=auto'
 alias bat='bat --theme=ansi'
+alias diff='colordiff'
+alias mount='mount |column -t'
+alias top='atop'
+alias h='history'
+alias j='jobs -l'
+alias ping='ping -c 5'
+alias catrc='cat ~/.zshrc'
+alias vimrc='vim ~/.zshrc'
+alias srcrc='source ~/.zshrc'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+alias ..4='cd ../../../..'
+
+# safety net aliases
+alias rm='rm -I --preserve-root'
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+# parenting changing perms on / #
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+# package installation
+alias apt-get="sudo apt-get"
+alias updatey="sudo apt-get --yes"
+alias update='sudo apt-get update && sudo apt-get upgrade'
+
 # colors for ls command
 export LS_COLORS='rs=0:no=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32:'
 export LESS_TERMCAP_mb=$'\e[1;32m'
