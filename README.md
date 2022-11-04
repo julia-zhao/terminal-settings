@@ -7,6 +7,7 @@ Settings for zsh terminal
 - lsd https://github.com/Peltoche/lsd
 - bat https://github.com/sharkdp/bat
 - MesloLGS NF font https://github.com/romkatv/powerlevel10k/blob/master/font.md
+- xclip
 
 ### Colour Scheme:
 #### Black
